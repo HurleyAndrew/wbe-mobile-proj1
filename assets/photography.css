@@ -1,0 +1,215 @@
+
+h1{
+    margin: 5px;
+    margin-top:15px;
+}
+p{
+   font-size:115%; 
+   margin: 5px;
+}
+.parallax{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    z-index: -9999;
+    background-image: url(images/about_pattern.svg);
+}
+.aboveparallax{
+    margin:auto;
+    width:100%;
+    height: 200vw;
+    z-index: 1;
+    background: rgb(42, 40, 58);
+   animation:comein;
+    animation-duration: 2s;
+}
+.phototitle{
+    color: black;
+    margin: auto;
+    padding-top: 7vw;
+    font-size: 10vw;
+   padding-bottom: 6vw;
+   animation:comein;
+    animation-duration: 2s;
+
+}
+.imagegallery{
+    margin: auto;
+    width: 90%;
+    height: auto;
+}
+.clearfix{
+    content: " ";
+    clear: both;
+}
+.row1{
+    margin:auto;
+    margin-top: 3vw;
+    width: 100%;
+    height:20vw;
+    float: left;
+    margin-bottom: 5.2vw;
+    animation:comein;
+    animation-duration: 2s;
+}
+    .r1d1{
+        margin:.2vw .2vw .2vw .2vw;
+        height:25vw;
+        width:38vw;
+        background-image: url(photography/IMG_2648OP.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        float: left;
+    }
+    .r1d2{
+        margin:.2vw .2vw .2vw .2vw;
+        height:25vw;
+        width:50vw;
+        background-image: url(photography/counselofme-copy-2OP.jpg);  
+        background-size: cover; 
+        background-repeat: no-repeat;
+        float: left;
+    }
+.row2{
+     margin:auto;
+     margin-top: .2vw;
+    width: 100%;
+    height:20vw;
+    float: left;
+    animation:comein;
+    animation-duration: 2.5s;
+}
+    .r2d1{
+        margin:.2vw .2vw .2vw .2vw;
+        height:20vw;
+        width:35vw;
+        background-image: url(photography/IMG_353OP.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        float: left;
+        background-position: 0, 0, 50px;
+    }
+    .r2d2{
+        margin:.2vw .2vw .2vw .2vw;
+        height:20vw;
+        width:32vw;
+       /* background-image: url(photography/IMG_2679OP.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;*/
+        float: left;
+        font-family: cursive;
+        text-align: center;
+        color: white;
+        font-size: 2vw;
+        margin-top: 4vw;
+        font-weight: 200;
+    }
+    .r2d3{
+        margin:.2vw .2vw .2vw .2vw;
+        height:40vw;
+        width:20.6vw;
+        background-image: url(photography/IMG_2624OP.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        float: left;
+        background-position: -24vw;
+
+}
+.row3{
+     margin:auto;
+    width: 100%;
+    height:20vw;
+    float: left;
+    animation:comein;
+    animation-duration: 3s;
+
+}
+    .r3d1{
+        margin-left: .15vw;
+        margin-top: .6vw;
+        height:19.6vw;
+        width:67.4vw;
+        background-image: url(photography/IMG_2617OP.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        float: left;
+        background-position: 0, 0, 50px;
+    }
+    
+.row4{
+    margin:auto;
+    margin-top: .4vw;
+    width: 100%;
+    height:20vw;
+    float: left;
+    animation:comein;
+    animation-duration: 3s;
+}
+    .r4d1{
+        margin:.2vw .2vw .2vw .2vw;
+        height:40vw;
+        width:44vw;
+        background-image: url(photography/IMG_260OP.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        float: left;
+        background-position: -15vw;
+         
+    }
+    .r4d2{
+        margin:.2vw .2vw .2vw .2vw;
+        height:40vw;
+        width:44vw;
+        background-image: url(photography/IMG_213OP.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        float: left;
+        
+    }
+    .row5{
+    margin:auto;
+    margin-top: .4vw;
+    width: 100%;
+    height:30vw;
+    
+    animation:comein;
+    animation-duration: 3s;
+}
+    .r5d1{
+        margin:22vw 5vw .2vw 15vw;
+        height:48vw;
+        width:31vw;
+        background-image: url(images/final_comp_catchingfire_cover.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        float: left;
+        
+         
+    }
+    .r5d2{
+        margin:22vw .2vw .2vw .2vw;
+        height:48vw;
+        width:30vw;
+        background-image: url(images/Home.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        float: left;
+        
+        
+         
+    }
+  
+@keyframes comein{
+    from
+    {
+        transform: translate(-400px);
+        opacity: 0;
+    }
+
+    to
+    {
+        transform:translate(0px);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,172 @@
+body{
+    background: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bodymodifier{
+    background-color:rgb(42, 40, 58);
+
+}
+.profileImage{
+    height: 15vw;
+    width: 15vw;
+    border-radius: 100vw;
+    background-image: url(images/profile_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid white;
+     animation:comein;
+    animation-duration: 1.75s;
+    
+}
+.justanime{
+    animation:comein;
+    animation-duration: 2s;
+
+}
+.logoImage{
+    height:40px;
+    width:auto;
+}
+header{
+    margin: auto;
+    width:15vw;
+}
+.clearfix{
+    content: " ";
+    clear: both;
+}
+
+.boxOne:hover{
+    opacity: .75;
+
+}
+.boxTwo:hover{
+    opacity: .75;
+}
+.boxThree:hover{
+    opacity: .75;
+}
+.boxOne{
+    margin: 1vw;
+    height: 30vw;
+    width: 29vw;
+    background-color: #32A0BA;
+    box-shadow: -.5vw -.5vw 0px 0px #226B7D;
+    float: left;
+    
+    
+}
+.boxTwo{
+    margin: 1vw;
+    height: 30vw;
+    width: 29vw;
+    background-color: #32A0BA;
+    box-shadow: 0vw -.4vw 0px .15vw #226B7D;
+    float: left;
+}
+.boxThree{
+   margin: 1vw;
+    height: 30vw;
+    width: 29vw;
+    background-color: #32A0BA;
+    box-shadow: .5vw -.5vw 0px 0px #226B7D;
+    float: left;
+}
+.boxarrangement{
+    margin:auto;
+    width: 95vw;
+    margin-bottom: 0;
+}
+article{
+    margin: auto;
+    margin-top: 9vw;
+    width: auto;
+}
+
+.hello{
+    margin-top:6vw;
+    background-color:rgba(0,0,0,0);
+    color:white;
+    font-size: 5vw;
+    margin-bottom: 0vw;
+    text-align: center;
+    font-weight: 300;
+}
+.nameis{
+    background-color:rgba(0,0,0,0);
+    color:white;
+    font-size: 3vw;
+    text-align: center;
+    font-weight: 100;
+}
+.hobbieTitle{
+    
+    background-color:rgba(0,0,0,0);
+    color:white;
+    font-size: 3vw;
+    text-align: center;
+    
+}
+.photoTitle{
+    text-align: center;
+    background-color:rgba(0,0,0,0);
+    color:white;
+    font-size: 3vw;
+}
+.aboutTitle{
+    text-align: center;
+    background-color:rgba(0,0,0,0);
+    color:white;
+    font-size: 3vw;
+}
+.hobbyicon{
+    margin:auto;
+    height: 75%;
+    width: 75%;
+    background-image: url(images/bike_icon.svg);
+    background-repeat: no-repeat;
+}
+.photoicon{
+    margin:auto;
+    height: 70%;
+    width: 70%;
+    background-image: url(images/camera_icon.svg);
+    background-repeat: no-repeat;
+}
+.abouticon{
+    margin:auto;
+    height: 55%;
+    width: 60%;
+    background-image: url(images/about_icon.svg);
+    background-repeat: no-repeat;
+}
+.boxOne, .boxTwo, .boxThree{
+    cursor: pointer;
+}
+.desc_para{
+ font:justify;
+ text-align: center;
+ margin: 5vw;
+ margin-bottom: 10vw;
+ margin-left: 20vw;
+ margin-right: 20vw;  
+ color: white;
+ font-size: 1.5vw;
+ font-weight: 100;
+}
+@keyframes comein{
+    from
+    {
+        transform: translate(-400px);
+        opacity: 0;
+    }
+
+    to
+    {
+        transform:translate(0px);
+        opacity: 1;
+    }
+}

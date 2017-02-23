@@ -1,0 +1,287 @@
+
+.clearfix{
+	content: " ";
+	clear: both;
+}
+.parallax{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	z-index: -9999;
+	background-image: url(images/about_pattern.svg);
+	background-size: cover;
+	
+}
+.aboveparallax{
+	margin:auto;
+	width:100vw;
+	height: 6000px;
+	z-index: 1;
+	background: rgb(42, 40, 58);
+	animation:comein;
+	animation-duration: 2s;
+	box-shadow:  2px -1px 20px 10px rgba(0,0,0,0.30);
+}
+.abouttitle{
+	color: black;
+	margin: auto;
+	padding-top: 7vw;
+	font-size: 10vw;
+	padding-bottom: 6vw;
+	animation:comein; 
+	animation-duration: 2s;
+
+}
+.aboutpara{
+ text-align: center;
+ margin: 5vw;
+ margin-bottom: 10vw;
+ margin-left: 20vw;
+ margin-right: 20vw;  
+ color: white;
+ font-size: 1.5vw;
+ font-weight: 100;
+}
+.basicskill{
+	height: 10vw;
+	width: 10vw;
+	float: left;
+	margin: 5px;
+}
+.skilltitle{
+	margin-left: 10vw;
+	font-size: 2.7vw;
+	background-color: #FB5748;
+	height: 6.5vw;
+	width: 26vw;
+	text-align: center;
+	top: 7vw;
+	box-shadow: -.5vw -.5vw 0px 0px #F93026;
+	color: white;
+	margin-bottom: 4vw;
+}
+.educationtitle{
+	margin-left: 10vw;
+	margin-top: 20vw;
+	font-size: 2.7vw;
+	background-color: #FB5748;
+	height: 6.5vw;
+	width: 26vw;
+	text-align: center;
+	box-shadow: -.5vw -.5vw 0px 0px #F93026;
+	color: white;
+	
+}
+.socialtitle{
+	margin-left: 10vw;
+	margin-top: 6vw;
+	font-size: 2.7vw;
+	background-color: #FB5748;
+	height: 6.5vw;
+	width: 26vw;
+	text-align: center;
+	box-shadow: -.5vw -.5vw 0px 0px #F93026;
+	color: white;
+}
+
+.edu_content{
+	margin-left: 14vw;
+	color: white;
+	font-size: 1.75vw;
+}
+
+.basicskill:hover{
+	animation:rotate;
+	animation-duration: .5s;
+	transform: rotate(10deg)
+}
+.seccirc{
+	margin: auto;
+	width: 20vw;
+	transform: translateY(3vw);
+}
+.circle{
+	height: 20vw;
+	width: 20vw;
+	border-radius: 3000px;
+	background-color: red;
+	animation:comein;
+	animation-timing-function: ease-in-out;
+	animation-duration: 2s;
+	background-image:url(images/about_profile.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: -5vw;
+	border: white 5px solid;
+}
+.skillarrange{
+	margin: auto;
+	width: 75vw;
+}
+.resume_link{
+	font-size: 2vw;
+}
+@keyframes comein{
+	from
+	{
+		transform: translate(-400px);
+		opacity: 0;
+	}
+
+	to
+	{
+		transform:translate(0px);
+		opacity: 1;
+	}
+}
+@keyframes rotate{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(10deg);
+	}
+}
+.resume_format{
+	margin: 0;
+	margin-top:2vw;
+	margin-left: 10vw;
+	color: white;
+	font-size: 1.5vw;
+	content: " ";
+	clear: both;
+	line-height: 1vw;
+}
+.photoshop{
+	background-image: url(images/photoshop_icon.svg);
+	background-size: cover;
+}
+.lightroom{
+	background-image: url(images/lightroom_icon.svg);
+	background-size: cover;
+}
+.illustrator{
+	background-image: url(images/illustrator_icon.svg);
+	background-size: cover;
+}
+.aftereffects{
+	background-image: url(images/aftereffects_icon.svg);
+	background-size: cover;
+}
+.dreamweaver{
+	background-image: url(images/dreamweaver__icon.svg);
+	background-size: cover;
+}
+.html_icon{
+	background-image: url(images/html_icon.png);
+	background-size: cover;
+}
+
+.css_icon{
+	background-image: url(images/css_icon.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.behance{
+	background-image: url(images/Behance.svg);
+	background-size: cover;
+}
+.facebook{
+	background-image: url(images/Facebook.svg);
+	background-size: cover;
+}
+.github{
+	background-image: url(images/Github.svg);
+	background-size: cover;
+}
+.instagram{
+	background-image: url(images/Instagram.svg);
+	background-size: cover;
+}
+.linkedin{
+	background-image: url(images/Linkedin.svg);
+	background-size: cover;
+}
+.behance, .facebook, .github, .instagram, .linkedin{
+	cursor: pointer;
+}
+.socialarrange{
+	margin-left: 12vw;
+	margin-top: 4vw;
+}
+
+/*modal information and structures*/
+.modal-title{
+	font-size: 3vw;
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-weight: 300;
+	margin: 0;
+	top:0;
+	bottom:0;
+}
+.modal-content{
+	height: 16vw;
+	font-size: 1.5vw;
+	padding:1vw;
+	background-color: #466AB0;
+	margin: 0;
+	top:0;
+	bottom:0;
+	color: white;
+	font-weight: 100;
+
+}
+.modal-window-photo, .modal-window-lightroom,.modal-window-illustrator,
+.modal-window-aftereffects,.modal-window-dreamweaver,
+.modal-window-html,.modal-window-css {
+	height: 16vw;
+	width:30vw;
+	position: fixed;
+	z-index: 3;
+	top: 15vw;
+	left: 40vw;
+	display: none;
+	overflow:hidden;
+	border-radius: 1.15vw;
+	box-shadow:  2px -1px 20px 10px rgba(0,0,0,0.55);
+	border: .2vw white inset;
+
+}
+.photoshop:hover ,.lightroom:hover,.aftereffects:hover ,.dreamweaver:hover,.html_icon:hover ,
+.css_icon:hover,.illustrator:hover{
+	cursor: pointer;
+}
+.photoshop:active ~ .modal-window-photo{
+	display:block;
+	background-color: white;
+	
+}
+.lightroom:active ~ .modal-window-lightroom{
+	display:block;
+	background-color: white;
+}
+.illustrator:active ~ .modal-window-illustrator{
+	display:block;
+	background-color: white;
+}
+.aftereffects:active ~ .modal-window-aftereffects{
+	display:block;
+	background-color: white;
+}
+.dreamweaver:active ~ .modal-window-dreamweaver{
+	display:block;
+	background-color: white;
+}
+.html_icon:active ~ .modal-window-html{
+	display:block;
+	background-color: white;
+}
+.css_icon:active ~ .modal-window-css{
+	display:block;
+	background-color: white;
+}
+/*end modal content*/
+
