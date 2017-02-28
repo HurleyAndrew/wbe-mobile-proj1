@@ -43,6 +43,10 @@ p{
     content: " ";
     clear: both;
 }
+.links{
+    color: lightblue;
+}
+
 .row1{
     margin:auto;
     margin-top: 3vw;
